@@ -4,6 +4,6 @@
 
 # Check this out! 
 
-https://ls-777.github.io/arduino-pong/
+https://faycal13.github.io/Arduino-PongGame/
 
 

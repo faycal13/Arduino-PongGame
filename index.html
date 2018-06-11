@@ -1,0 +1,429 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Arduino - Pong Game</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-icon.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- header section -->
+        <section class="banner" role="banner">
+            <!--header navigation -->
+            <header id="header">
+                <div class="header-content clearfix">
+                    <a class="logo" href="#"><img class="img-fluid" src="images/logos/arduino.png" style="height: 50px; width: 50px;" alt="logo"></a>
+
+                    <nav class="navigation" role="navigation"><!-- couleur & hover à revoir -->
+                        <ul class="primary-nav nav-li">
+                            <li class="nav-item"><a class="mt-5" href="#intro">Intro</a></li>
+                            <li class="nav-item"><a href="#services">Technos</a></li>
+                            <li class="nav-item"><a href="#works">Gallerie</a></li>
+                            <li class="nav-item"><a href="#teams">Notre Équipe</a></li>
+                            <li class="nav-item"><a href="#testimonials">Story</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+            </header>
+            <!--header navigation -->
+            <!-- banner text -->
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-text text-center">
+                        <!--                        <h1 class="main-title">PONG-DUINO</h1>-->
+                        <!--                        <p>Be the better Pong-man</p>-->
+                        <!--                        <nav role="navigation"> <a href="#services" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>  à changer-->
+                    </div>
+                    <!-- banner text -->
+                </div>
+            </div>
+        </section>
+        <!-- header section -->
+        <!-- about section -->
+        <section id="intro" class="section intro no-padding green-sec">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="col-md-6">
+                                    <div class="avatar"> <img src="images/GALLERY/13.png" alt="" class="img-responsive"> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <blockquote>
+                                        <h2 class="green-title">La simplicité sert l'efficacité</h2>
+                                        <p>Surfant sur la vague du DIY (Do It Yourself), dans son élaboration comme dans son principe, ce jeu mettra vos réflexes (et vos nerfs?) à rude épreuve.</p>
+                                        <p>Dans son petit coffre en bois véritable, se cache un concentré de technologie open-source, d'heures de soudure &amp; de sueur... </p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-6">
+                                    <div class="avatar"> <img src="images/GALLERY/10.jpg" alt="" class="img-responsive"> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <blockquote>
+<!--                                        <h2> </h2>-->
+                                        <p>Associant programmation &amp; "bricolage", ce jeu se veut convivial &amp; technique à la fois.</p>
+                                        <p>Composé de LED, de boutons, d'un cablâge interne et d'une carte Arduino UNO, il raviera tout type de public, dans une athmosphère compétitive. </p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section -->
+
+        <!-- services section -->
+        <section id="services" class="services service-section light-sec">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Technologies utilisées</h2>
+                    <div class="col-md-4 col-sm-6 services ">
+                        <div class="img-responsive text-center">
+                            <img src="images/logos/card.png" class="service-img" alt="logo arduino">
+                        </div>
+                        <div class="services-content">
+                            <h5>Carte Arduino Uno</h5>
+                            <p>Nous avons utilisé la plus célèbre des cartes Arduino pour réaliser un jeu simple, intéractif &amp; amusant</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 services">
+                        <div class="img-responsive text-center">
+                            <img src="images/logos/pong.png"  class="service-img" alt="logo pong">
+                        </div>
+                        <div class="services-content">
+                            <br>
+                            <h5>PONG</h5>
+                            <p>Retrouvez l'engouement de l'un des premiers jeux vidéo jamais sorti! </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 services">
+                        <div class="img-responsive text-center">
+                            <img src="images/logos/arduino2.png" class="service-img" alt="logo arduino2">
+                        </div>
+                        <div class="services-content">
+                            <h5>Langage Arduino</h5>
+                            <p>Le langage de programmation utilisé est le C++, compilé avec avr-g++, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section -->
+        <!-- work section -->
+        <section id="works" class="works section no-padding green-sec">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <h2 class="section-title">Gallerie</h2>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/1.jpg" class="work-box"> <img src="images/GALLERY/1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/2.jpg" class="work-box"> <img src="images/GALLERY/2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/3.jpg" class="work-box"> <img src="images/GALLERY/3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/4.jpg" class="work-box"> <img src="images/GALLERY/4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/5.jpg" class="work-box"> <img src="images/GALLERY/5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/6.jpg" class="work-box"> <img src="images/GALLERY/6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/7.jpg" class="work-box"> <img src="images/GALLERY/7.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/8.JPG" class="work-box"> <img src="images/GALLERY/8.JPG" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/GALLERY/arduino-sexy.jpg" class="work-box"> <img src="images/GALLERY/arduino-sexy.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-10.jpg" class="work-box"> <img src="images/GALLERY/9.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-11.jpg" class="work-box"> <img src="images/GALLERY/11.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-12.jpg" class="work-box"> <img src="images/GALLERY/10.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <p><span class="icon icon-magnifying-glass"></span></p>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        </a> </div>
+                </div>
+            </div>
+        </section>
+        <!-- work section -->
+        <!-- our team section -->
+        <section id="teams" class="section teams light-sec">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Notre Équipe</h2>
+
+                    <!-- team member 3 -->
+                    <div class="col-md-3 col-sm-8">
+                        <div class="person"> <img src="images/bap.png" alt="" class="img-responsive person-img">
+                            <div class="person-content">
+                                <h4>Baptiste <br>HOVANISIAN</h4>
+                                <h5 class="role">Chef Électronicien</h5>
+                                <ul class="social-icons clearfix">
+                                    <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+                                <br>
+                                <a href="cv/Hovanisian_CV.pdf" class="btn" download>CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-8">
+                        <div class="person"> <img src="images/fayc.png" alt="" class="img-responsive person-img">
+                            <div class="person-content">
+                                <h4>Fayçal <br>DALI</h4>
+                                <h5 class="role">Wordpress Boss</h5>
+                                <ul class="social-icons clearfix">
+                                    <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+                                <br>
+                                <a href="cv/Fay%C3%A7alDali(3).pdf" class="btn" download>CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-8">
+                        <div class="person"> <img src="images/momo.png" alt="" class="img-responsive person-img">
+                            <div class="person-content">
+                                <h4>Mohammed <br> NAIMI</h4>
+                                <h5 class="role">Technical lead</h5>
+                                <ul class="social-icons clearfix">
+                                    <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+
+                                <br>
+                                <a href="cv/NAIMI_CV.pdf" class="btn" download>CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-8">
+                        <div class="person"> <img src="images/lio.png" alt="" class="img-responsive person-img">
+                            <div class="person-content">
+                                <h4>Lionel <br>SUVELOR</h4>
+                                <h5 class="role">Scrum Master</h5>
+                                <ul class="social-icons clearfix">
+                                    <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+                                </ul>
+
+                                <br>
+                                <a href="cv/SUVELOR_LIONEL_CV_2018.pdf" class="btn" download>CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- team member 1 -->
+                </div>
+            </div>
+        </section>
+        <!-- our team section -->
+        <!-- Testimonials section -->
+        <section id="testimonials" class="section testimonials no-padding green-sec">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <div class="flexslider">
+                        <h2 class="slider-title">Le Making-of Arduino</h2>    <a href="https://framablog.org/2011/12/10/arduino-histoire/" target="_blank" class="slider-link">Voir l'Histoire originale sur <strong>Framasoft</strong>  &rarr;</a>
+                        <ul class="slides">
+                            <li>
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <h1 class="cit">"Ou comment cinq amis ont conçu la petite carte électronique qui a bouleversé le monde du DIY (Do It Yourself – Faites-le vous-même)."</h1>
+                                        <p>Auteur, role</p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <h1 class="cit">"La petite carte est désormais devenu le couteau suisse de nombreux artistes, passionnés, étudiants, et tous ceux qui rêvaient d’un tel gadget."</h1>
+                                        <p>auteur, role</p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <h1 class="cit">"Cela a permis aux gens de faire des choses qu’ils n’auraient pas pu faire autrement."</h1>
+                                        <p>David A. Mellis, MIT Media Lab</p>
+                                        <!-- OK -->
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <h1 class="cit">"La philosophie derrière Arduino est que si vous voulez apprendre l’électronique, vous devriez être capable d’apprendre par la pratique dès le premier jour, au lieu de commencer par apprendre l’algèbre."</h1>
+                                        <p>David Cuartielles, ingénieur en télécommunications</p>
+                                        <!-- OK -->
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <h1 class="cit">"mais je ne suis pas un vrai ingénieur, donc je l’ai fait n’importe comment!"</h1>
+                                        <p>Massimo Banzi, un des créateurs</p>
+                                        <!-- OK -->
+                                    </blockquote>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section -->
+        <!-- Get a quote section -->
+        <!--
+<section id="contact" class="section quote light-sec">
+<div class="container">
+<div class="col-md-8 col-md-offset-2 text-center">
+<h2 class="section-title">Contact</h2>
+<h3>Vous avez battu un de nos joueurs chevronnés?</h3>
+<a href="#" class="btn btn-large green-sec">Gardons contact!</a> </div>   mettre un lien vers un pack des CV de l'équipe
+</div>
+</section>
+-->
+        <!-- Get a quote section -->
+        <!-- Footer section -->
+        <!--
+<footer class="footer">
+<div class="footer-top section">
+<div class="container">
+<div class="row">
+<div class="footer-col col-md-6">
+<h5>Our Office Location</h5>
+<p>Collins Street West Victoria 8007 Australia.<br>
+1800 1234 56789 / 98532100987<br>
+support@flosix.com</p>
+<p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+</div>
+<div class="footer-col col-md-3">
+<h5>Services We Offer</h5>
+<p>
+<ul>
+<li><a href="#">Digital Strategy</a></li>
+<li><a href="#">Websites</a></li>
+<li><a href="#">Videography</a></li>
+<li><a href="#">Social Media</a></li>
+<li><a href="#">User Experience</a></li>
+</ul>
+</p>
+</div>
+<div class="footer-col col-md-3">
+<h5>Share with Love</h5>
+<ul class="footer-share">
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+-->
+        <!--   footer top -->
+
+        <!--</footer>-->
+        <!-- Footer section -->
+        <!-- JS FILES -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/retina.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
